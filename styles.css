@@ -1,2 +1,107 @@
 
 /* Your CSS Code here. */
+*{
+    margin: 0px;
+    
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(PermanentMarker-Regular.ttf);
+  }
+header{
+    background-color:black;
+    color:lightgoldenrodyellow;
+ 
+    text-align: center;
+    font-family: myFirstFont;
+    font-size:20px;
+}
+nav{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:brown;
+    padding: 2px;
+        height:40px;
+    width:100%;
+    align-content: center;
+}
+a{text-align: center;
+    font-family: myFirstFont;
+    font-style:normal;
+    font-size:20px;
+    color:rgb(255, 255, 255);   
+}
+details{
+    display:flexbox;
+    margin:10px;
+    font-size:25px;
+    padding: 5px;
+    border:5px solid darkslategrey;
+    background-color:lightcyan;
+    text-align: center;
+    font-family: myFirstFont;
+}
+aside {
+    display:inline-block;
+    margin-left:10px;
+    font-size:20px;
+    width: 22vw;
+    height:auto;
+    padding: 15px;
+    float:right;
+    border:5px solid darkslategrey;
+    background-color:lightcyan;
+    text-align: center;
+    font-family: myFirstFont;
+    /* width: 20vw;
+    height: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style:normal;
+    font-size: 30px;
+    background-color: skyblue;
+    color:aliceblue; */
+  }
+  footer{
+    height:50px;
+    background-color:black;
+    color:lightgoldenrodyellow;
+    text-align: center;
+    font-family: myFirstFont;
+    font-size:30px;
+  }
+  h1{
+    font-size:40px;
+     margin-top: 30px;
+  }
+ .act1{
+    display:inline-block;
+    width:70vw;
+    margin:10px;
+    font-size:25px;
+    padding: 5px;
+    border:5px solid darkslategrey;
+    background-color:lightcyan;
+    font-family: myFirstFont;
+  }
+  .act2{
+    display:inline-block;
+    width:70vw;
+    margin:10px;
+    font-size:25px;
+    padding: 5px;
+    border:5px solid darkslategrey;
+    background-color:lightcyan;
+    font-family: myFirstFont;
+  }
+  #quotes{
+    display:inline-block;
+    width:70vw;
+    margin:10px;
+    font-size:25px;
+    padding: 5px;
+    border:5px solid darkslategrey;
+    background-color:lightcyan;
+    font-family: myFirstFont;
+  }
